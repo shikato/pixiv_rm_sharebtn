@@ -1,5 +1,5 @@
 # pixiv_rm_sharebtn
-pixivの「いいね」などの危険なシェア系ボタンを消します
+pixivで表示される「いいね」などの危険なシェア系ボタンを消します
 
 ## Install
 [greasyfork.org](https://greasyfork.org/ja/scripts/13347-pixiv-rm-sharebtn)からインストールしてください。 

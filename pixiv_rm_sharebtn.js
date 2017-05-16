@@ -3,13 +3,13 @@
 // @namespace      http://shikato.org/pixiv_rm_likebtn
 // @author         shikato
 // @description    pixivの「いいね」などの危険なシェア系ボタンを削除します
-// @version        0.0.1
-// @include        http://www.pixiv.net/member_illust.php*
+// @version        0.0.2
+// @include        https://www.pixiv.net/member_illust.php*
 /* load jQuery */  
-// @require http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js  
+// @require https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 // ==/UserScript==  
 setInterval(function () {
-  if (!$('.share-button').length) return;
-  $('.share-button').remove(); 
+  if (!$('._reaction-buttons-container').length) return;
+  $('._reaction-buttons-container').remove();
 }, 300);
  
